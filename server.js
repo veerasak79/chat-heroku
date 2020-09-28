@@ -38,6 +38,7 @@ io.on("connection", (socket) => {
   });
 });
 
+console.log(`Serer2 is running. ${PORT}`)
 
 io.listen(PORT, ()=>{
   console.log(`Serer is running. ${PORT}`)
